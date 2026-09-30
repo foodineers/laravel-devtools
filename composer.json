@@ -24,13 +24,15 @@
         "illuminate/contracts": "^11.0||^12.0||^13.0",
         "larastan/larastan": "^3.10.0",
         "laravel/boost": "^2.4.8",
-        "laravel/pao": "^1.0",
-        "laravel/pint": "^1.29.1",
+        "laravel/pail": "^1.2",
+        "laravel/pao": "^1.1",
+        "laravel/pint": "^1.32",
+        "laravel/vet": "^0.2.1",
         "llm/skills": "^1.9",
         "mockery/mockery": "^1.6",
         "nunomaduro/collision": "^8.9.4",
         "nunomaduro/mock-final-classes": "^1.2",
-        "pestphp/pest": "^5.0",
+        "pestphp/pest": "^5.2",
         "pestphp/pest-plugin-agent": "^5.0",
         "pestphp/pest-plugin-arch": "^5.0",
         "pestphp/pest-plugin-browser": "^5.0",
@@ -43,6 +45,7 @@
         "phpstan/phpstan-deprecation-rules": "^2.0.4",
         "phpstan/phpstan-phpunit": "^2.0.16",
         "rector/rector": "^2.4.5",
+                "roave/security-advisories": "dev-latest",
         "spatie/laravel-package-tools": "^1.93",
         "spatie/laravel-ray": "^1.43.9"
     },
@@ -87,6 +90,7 @@
     "config": {
         "sort-packages": true,
         "allow-plugins": {
+            "laravel/vet": true,
             "llm/skills": true,
             "pestphp/pest-plugin": true,
             "phpstan/extension-installer": true
